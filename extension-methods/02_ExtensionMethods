@@ -1,0 +1,28 @@
+/*
+using System;
+
+static class StringExtensions
+{
+    // "this string thisObj" este primeiro parametro é uma referencia a classe string apenas
+    public static string Cut(this string thisObj, int count)
+    {
+        if (thisObj.Length <= count)
+        {
+            return thisObj;
+        }
+        else
+        {
+            return thisObj.Substring(0, count) + "...";
+        }
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        string s1 = "Good morning dear students!";
+        Console.WriteLine(s1.Cut(10));
+    }
+}
+*/

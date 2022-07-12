@@ -1,3 +1,4 @@
+/*
 using System;
 
 public class Client
@@ -34,3 +35,4 @@ public class Program
         Console.WriteLine(b.GetHashCode());
     }
 }
+*/
